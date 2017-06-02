@@ -1,0 +1,20 @@
+.item{
+  height: 4em;
+  vertical-align: middle;
+  line-height: 4em;
+  padding: 0 .5em;
+}
+.item:not(:last-of-type) {
+  border-bottom: 1px solid lightgray;
+}
+.item span:not(:last-of-type) {
+  padding-right: 1em;
+}
+.item img{
+  height: 3em;
+  margin-bottom: -1em;
+}
+.item .temperature{
+  float:right;
+  font-weight: bold;
+}

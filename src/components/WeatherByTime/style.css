@@ -1,0 +1,5 @@
+.forecast{
+  padding: 0 1em;
+  flex: .2 1 20%;
+  overflow: hidden;
+}

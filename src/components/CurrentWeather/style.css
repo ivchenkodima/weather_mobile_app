@@ -1,0 +1,26 @@
+.current-weather{
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-end;
+  justify-content: center;
+  color: white;
+}
+.current-weather > *{
+  margin: 0;
+}
+.current-weather p{
+  opacity: .6;
+}
+.current-weather h2{
+
+}
+.current-weather h1{
+  font-size: 700%;
+}
+.current-weather sup{
+  font-size: 60%;
+  position: relative;
+  top: -.5em;
+}
